@@ -47,6 +47,12 @@ createApp(App).use(ElementPro).mount('#app')
 </template>
 ```
 
+## 每一个组件开发：使用当前的样式覆盖。
+
+### 当前的组建中有自测的单元化
+
+比如：index.test.ts 中：src/Link。
+
 ## Contributors
 
 Thank you to all the people who have already contributed to element-pro-components!
