@@ -49,7 +49,7 @@ createApp(App).use(ElementPro).mount('#app')
 
 ## 每一个组件开发：使用当前的样式覆盖。
 
-### 当前的组建中有自测的单元化
+### 当前的组件中有自测的单元化
 
 比如：index.test.ts 中：src/Link。
 

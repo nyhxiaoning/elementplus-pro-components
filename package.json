@@ -21,6 +21,8 @@
     "node": ">=16.0.0"
   },
   "scripts": {
+    "git": "git add . && git commit",
+    "postgit": "npm version patch && git push --all",
     "dev": "vite",
     "build": "npm run build:lib && npm run build:helper && npm run build:styles && npm run build:types",
     "build:lib": "rimraf lib && vite build -c build/build-lib.ts",
